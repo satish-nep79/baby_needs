@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/row_item_background"
+    android:orientation="horizontal"
+    android:paddingStart="8dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="8dp"
+    android:layout_marginBottom="12dp">
+    
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="132dp"
+        android:layout_height="120dp"
+        android:src="@drawable/dummy_image"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:id="@+id/tv_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Baby Pacifier asdasdasdasdasdasdasd"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins"
+            android:textFontWeight="700"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/tv_item_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins"
+            android:textFontWeight="400"
+            android:maxLines="4"
+            android:minLines="4"
+            android:ellipsize="end"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_gravity="bottom"
+                android:id="@+id/tv_item_price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="Rs. 500"
+                android:textColor="#95FF8C"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins"
+                android:textFontWeight="400"
+                android:maxLines="1"
+                android:minLines="1"
+                android:ellipsize="end"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:gravity="end">
+
+                <LinearLayout
+                    android:id="@+id/btn_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:background="@drawable/drb_selected_tab_background">
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_baseline_send_24"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Send"
+                        android:textColor="#3BB8FF"
+                        android:textSize="10sp"
+                        android:fontFamily="@font/poppins"
+                        android:textFontWeight="400"
+                        android:layout_marginStart="4dp"
+                        android:ellipsize="end"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

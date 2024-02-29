@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_signup_complete"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".screen.SignInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="247dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="Mother's Details"
+            android:textColor="@color/white"
+            android:textFontWeight="600"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/et_mother_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/drb_edit_text"
+            android:hint="Name"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:paddingStart="2dp"
+            android:paddingBottom="4dp"
+            android:textColorHint="@color/hint_text_color"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drb_edit_text"
+            android:padding="8dp"
+            android:paddingStart="2dp"
+            android:paddingBottom="4dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="25dp">
+
+            <TextView
+                android:id="@+id/tv_dob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DOB"
+                android:textSize="16sp"
+                android:textColor="@color/hint_text_color"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drb_edit_text"
+            android:padding="8dp"
+            android:paddingStart="2dp"
+            android:paddingBottom="4dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="25dp">
+
+            <TextView
+                android:id="@+id/tv_delivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery Date"
+                android:textSize="16sp"
+                android:textColor="@color/hint_text_color"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="54dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/drb_button"
+            android:gravity="center"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Continue"
+                android:textColor="@color/white"
+                android:textFontWeight="500"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

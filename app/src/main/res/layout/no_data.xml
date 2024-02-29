@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/no_data"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/tv_no_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Items Found"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"/>
+        
+        <LinearLayout
+            android:id="@+id/btn_add_new"
+            android:layout_width="283dp"
+            android:layout_height="55dp"
+            android:background="@drawable/drb_button"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp">
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_add_24"
+                    android:layout_gravity="center_vertical"/>
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add new items"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/white"
+                    android:textFontWeight="500"
+                    android:textSize="20sp"
+                    android:layout_marginStart="13dp"/>
+
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+
+
+</RelativeLayout>
