@@ -32,7 +32,7 @@ After installing the app, follow these steps:
 6. Share items with your contacts through the app.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md] (LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
 
 ## Contact
 Satish Nepali - satishnepali79@gmail.com
