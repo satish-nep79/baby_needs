@@ -30,3 +30,10 @@ After installing the app, follow these steps:
 4. Navigate to the 'Add Item' section to add new items for purchase.
 5. Mark items as purchased once you've acquired them.
 6. Share items with your contacts through the app.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+
+## Contact
+Satish Nepali - satishnepali79@gmail.com
+
